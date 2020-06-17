@@ -1,4 +1,4 @@
-baseURL = "http://mattstrayer.com/"
+baseURL = "https://www.mattstrayer.com/"
 languageCode = "en-us"
 title = "matt strayer"
 theme = "hugo-theme-basic"
