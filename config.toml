@@ -17,7 +17,6 @@ description = "Matt Strayer blog, links, projects."
 
 [params]
   titleEmoji = ":rocket:"
-  # change this!
   twitter = "matt_strayer"
 
 [Permalinks]
@@ -27,9 +26,9 @@ description = "Matt Strayer blog, links, projects."
   name = "blog"
   url = "post/"
 
-[[params.menu]]
-  name = "post series"
-  url = "series/"
+# [[params.menu]]
+#   name = "post series"
+#   url = "series/"
   
 [[params.menu]]
   name = "about"
