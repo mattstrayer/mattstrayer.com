@@ -1,5 +1,5 @@
 +++
-title = "Matt Strayer - About"
+title = "about"
 date = "2020-06-17"
 +++
 
