@@ -1,3 +1,36 @@
 baseURL = "http://mattstrayer.com/"
 languageCode = "en-us"
 title = "Matt Strayer"
+theme = "hugo-theme-basic"
+
+
+
+# hugo theme basic, options
+enableEmoji = true 
+copyright = "© 2020"
+description = "Matt Strayer blog, links, projects."
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+
+[params]
+  titleEmoji = ":rocket:"
+  # change this!
+  twitter = "matt_strayer"
+
+[Permalinks]
+  post = "post/:slug"
+
+[[params.menu]]
+  name = "blog"
+  url = "post/"
+
+[[params.menu]]
+  name = "post series"
+  url = "series/"
+  
+[[params.menu]]
+  name = "about"
+  url = "about/"
