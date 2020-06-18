@@ -7,7 +7,7 @@ theme = "hugo-theme-basic"
 
 # hugo theme basic, options
 enableEmoji = true 
-copyright = "© 2020"
+copyright = "© 2020, theme by: <a href='https://github.com/siegerts/hugo-theme-basic'>@siegerts</a>"
 description = "Matt Strayer blog, links, projects."
 
 [taxonomies]
