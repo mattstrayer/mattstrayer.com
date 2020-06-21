@@ -1,6 +1,8 @@
 ---
 title: "VSCode, Vue, & Eslint/Prettier - One Happy Family"
-date: 2020-06-17T08:51:30-04:00
+date: 2020-06-17
+publishDate: 2020-06-22
+lastMod: 2020-06-21
 draft: true
 ---
 
@@ -10,26 +12,27 @@ draft: true
 Github repo for this sample project: [sample-vue-app](www.github.com/mattsrayer/sample-vue-app).
 for those of you who already have a vue app setup & just want all the eslint/prettier goodness, you can skip down to [here](#eslint).
 
+
 # Vue app setup
 First things first, lets make sure that vue-cli is installed. We'll leverage its vue project scaffolding capabilities here to this as easy as possible.
 
-```
+```bash
 # Yarn
 yarn global add @vue/cli
 
-# NPM || PNPM commands are the same
+# NPM & PNPM commands are the same
 npm install -g @vue/cli
 ```
 
 
 Next up, we're going to create a new project. We're going to make a sample app called `sample`
 
-```
-vue create sample
+```bash
 # This will create a folder in your current directory called `sample`
+vue create sample
 ```
 
-```
+```text
 Vue CLI v4.4.4
 ? Please pick a preset:
   default (babel, eslint)
@@ -38,7 +41,7 @@ Vue CLI v4.4.4
 Select the `manually select features` option. (press enter to continue)
 
 
-```
+```text
 Vue CLI v4.4.4
 ? Please pick a preset: Manually select features
 ? Check the features needed for your project: (Press <space> to select, <a> to toggle all, <i> to invert selection)
@@ -55,7 +58,7 @@ Vue CLI v4.4.4
 The bare minimum that we need here is Babel & Linting. (press enter)
 
 
-```
+```text
 Vue CLI v4.4.4
 ? Please pick a preset: Manually select features
 ? Check the features needed for your project: Babel, Linter
@@ -67,7 +70,7 @@ Vue CLI v4.4.4
 ```
 Select the last option, `ESLint + Prettier`.
 
-```
+```text
 Vue CLI v4.4.4
 ? Please pick a preset: Manually select features
 ? Check the features needed for your project: Babel, Linter
@@ -78,7 +81,7 @@ Vue CLI v4.4.4
 ```
 Select both options (press `a` to select all).
 
-```
+```text
 Vue CLI v4.4.4
 ? Please pick a preset: Manually select features
 ? Check the features needed for your project: Babel, Linter
@@ -101,7 +104,9 @@ At this point ESLint is ready to roll, you can run `yarn lint` and it will forma
 
 # VSCode + OnSave
 
-In order for eslint to work on-save, we have to modify our VSCode settings. If you'd like to apply these settings just to your workspace, create `.vscode/settings.json` file. Otherwise, you can apply this across all projects by editing your user's `settings.json` file. On a mac, you can quickly get to this by `CMD + Shift + p` and entering `preferences:Open Settings (JSON)` in the prompt field.
+In order for eslint to work on-save, we have to install the [eslint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) and modify our VSCode settings.
+
+If you'd like to apply these settings just to your workspace, create `.vscode/settings.json` file. Otherwise, you can apply this across all projects by editing your user's `settings.json` file. On a mac, you can quickly get to this by `CMD + Shift + p` and entering `preferences:Open Settings (JSON)` in the prompt field.
 
 Add the following.
 

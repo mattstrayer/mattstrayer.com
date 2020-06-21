@@ -3,7 +3,19 @@ languageCode = "en-us"
 title = "matt strayer"
 theme = "hugo-theme-basic"
 
+[frontmatter]
+  date = ["publishDate", "date", "lastmod"]
 
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    style = "dracula"
+    tabWidth = 4
 
 # hugo theme basic, options
 enableEmoji = true 
