@@ -32,13 +32,16 @@ Next up, we're going to create a new project. We're going to make a sample app c
 vue create sample
 ```
 
+Select the `manually select features` option. (press enter to continue)
+
 ```text
 Vue CLI v4.4.4
 ? Please pick a preset:
   default (babel, eslint)
 ❯ Manually select features
 ```
-Select the `manually select features` option. (press enter to continue)
+
+The bare minimum that we need here is Babel & Linting. (press enter)
 
 
 ```text
@@ -55,8 +58,8 @@ Vue CLI v4.4.4
  ◯ Unit Testing
  ◯ E2E Testing
 ```
-The bare minimum that we need here is Babel & Linting. (press enter)
 
+Select the last option, `ESLint + Prettier`.
 
 ```text
 Vue CLI v4.4.4
@@ -68,7 +71,8 @@ Vue CLI v4.4.4
   ESLint + Standard config
 ❯ ESLint + Prettier
 ```
-Select the last option, `ESLint + Prettier`.
+
+Select both options (press `a` to select all).
 
 ```text
 Vue CLI v4.4.4
@@ -79,7 +83,8 @@ Vue CLI v4.4.4
  ◉ Lint on save
 ❯◉ Lint and fix on commit
 ```
-Select both options (press `a` to select all).
+
+Finally, select to store these configs in the `package.json` file & let the cli work for you.
 
 ```text
 Vue CLI v4.4.4
@@ -91,7 +96,6 @@ Vue CLI v4.4.4
   In dedicated config files
 ❯ In package.json
 ```
-Finally, select to store these configs in the `package.json` file & let the cli work for you.
 
 ## What just happened?
 
