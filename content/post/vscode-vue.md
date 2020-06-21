@@ -6,8 +6,6 @@ lastMod: 2020-06-21
 draft: true
 ---
 
-# intro
-
 
 Github repo for this sample project: [sample-vue-app](www.github.com/mattsrayer/sample-vue-app).
 for those of you who already have a vue app setup & just want all the eslint/prettier goodness, you can skip down to [here](#eslint).
@@ -32,7 +30,7 @@ Next up, we're going to create a new project. We're going to make a sample app c
 vue create sample
 ```
 
-Select the `manually select features` option. (press enter to continue)
+Arrow down to select the `manually select features` option. (press enter to continue)
 
 ```text
 Vue CLI v4.4.4
@@ -84,7 +82,7 @@ Vue CLI v4.4.4
 ❯◉ Lint and fix on commit
 ```
 
-Finally, select to store these configs in the `package.json` file & let the cli work for you.
+Finally, select to store these configs in the `package.json` file & let vue cli build the project.
 
 ```text
 Vue CLI v4.4.4
