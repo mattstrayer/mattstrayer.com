@@ -15,10 +15,9 @@ body {
     padding: 9.5px;
     margin: 0 0 10px;
     line-height: 1.4;
-    word-break: break-all;
-    word-wrap: break-word;
     border: 1px solid #ccc;
     border-radius: 4px;
+    overflow: auto;
   }
   
   pre,
@@ -26,6 +25,8 @@ body {
     font-family: monocode, monospace;
     -webkit-font-smoothings: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    word-wrap: normal;
+    white-space: pre;
   }
   
   
@@ -34,3 +35,5 @@ body {
     border: 1px solid lightgray;
     background: whitesmoke;
   }
+
+  
