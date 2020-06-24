@@ -15,7 +15,7 @@ for those of you who already have a vue app setup & just want all the eslint/pre
 {{< details "Getting Started with Vue">}}
 
 # Vue app setup
-First things first, lets make sure that vue-cli is installed. We'll leverage its vue project scaffolding capabilities here to this as easy as possible.
+First things first, lets make sure that vue-cli is installed. We'll leverage its vue project scaffolding capabilities to this as easy as possible.
 
 ```bash
 # Yarn

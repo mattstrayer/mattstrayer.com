@@ -3,6 +3,12 @@ languageCode = "en-us"
 title = "matt strayer"
 theme = "hugo-theme-basic"
 
+
+# hugo theme basic, options
+enableEmoji = true 
+copyright = "© 2020 Copyright Matt Strayer (<a href='https://twitter.com/matt_strayer' class='link black-40'>@matt_strayer</a>). All rights reserved."
+description = "Matt Strayer blog, links, projects."
+
 [frontmatter]
   date = ["publishDate", "date", "lastmod"]
 
@@ -17,10 +23,7 @@ theme = "hugo-theme-basic"
     style = "dracula"
     tabWidth = 4
 
-# hugo theme basic, options
-enableEmoji = true 
-copyright = "© 2020, theme by: <a href='https://github.com/siegerts/hugo-theme-basic'>@siegerts</a>"
-description = "Matt Strayer blog, links, projects."
+
 
 [taxonomies]
   category = "categories"
