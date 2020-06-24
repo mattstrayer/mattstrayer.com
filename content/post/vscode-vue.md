@@ -7,9 +7,12 @@ draft: true
 ---
 
 
-Github repo for this sample project: [sample-vue-app](www.github.com/mattsrayer/sample-vue-app).
+Github repo for this sample project: [sample-vue-app](https://github.com/mattstrayer/sample-vue-vscode-eslint-prettier).
 for those of you who already have a vue app setup & just want all the eslint/prettier goodness, you can skip down to [here](#eslint).
 
+### If you're new to Vue entirely, and need a walk-through to get started, expand below!
+
+{{< details "Getting Started with Vue">}}
 
 # Vue app setup
 First things first, lets make sure that vue-cli is installed. We'll leverage its vue project scaffolding capabilities here to this as easy as possible.
@@ -97,7 +100,10 @@ Vue CLI v4.4.4
 
 ## What just happened?
 
-Vue scaffolded out a baseline vue application with a built-in pre-commit hook to lint & fix on commit. Vue uses [yorkie](https://github.com/yyx990803/yorkie) (a fork of [husky](https://github.com/typicode/husky)) to handle pre-commit hooks. If you're interested, you can see what yorkie does by opening `.git/hooks/pre-commit`. 
+Vue scaffolded out a baseline vue application with a built-in pre-commit hook to lint & fix on commit. Vue uses [yorkie](https://github.com/yyx990803/yorkie) (a fork of [husky](https://github.com/typicode/husky)) to handle pre-commit hooks. If you're interested, you can see what yorkie does by opening `.git/hooks/pre-commit`.
+{{< /details >}}
+
+
 
 # Eslint & Prettier
 
