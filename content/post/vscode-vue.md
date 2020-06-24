@@ -101,8 +101,10 @@ Vue CLI v4.4.4
 ## What just happened?
 
 Vue scaffolded out a baseline vue application with a built-in pre-commit hook to lint & fix on commit. Vue uses [yorkie](https://github.com/yyx990803/yorkie) (a fork of [husky](https://github.com/typicode/husky)) to handle pre-commit hooks. If you're interested, you can see what yorkie does by opening `.git/hooks/pre-commit`.
-{{< /details >}}
 
+---
+
+{{< /details >}}
 
 
 # Eslint & Prettier
