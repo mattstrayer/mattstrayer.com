@@ -19,6 +19,6 @@ projects:
   
 * [stray photography](https://www.strayphotography.com/)
   
-* [django taxtea](https://www.djangotaxtea.com) - django app to make calculating SaaS easy
+* [django taxtea](https://github.com/lowercase-app/django-taxtea) - django app to make calculating SaaS easy
 
 * [vue weekly](https://www.vueweekly.dev/) - a free, weekly email digest of Vue.js news and articles
