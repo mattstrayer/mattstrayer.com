@@ -6,7 +6,7 @@ theme = "hugo-theme-basic"
 
 # hugo theme basic, options
 enableEmoji = true 
-copyright = "© 2020 Copyright Matt Strayer (<a href='https://twitter.com/matt_strayer' class='link black-40'>@matt_strayer</a>). All rights reserved."
+copyright = "© 2022 Copyright Matt Strayer (<a href='https://twitter.com/matt_strayer' class='link black-40'>@matt_strayer</a>). All rights reserved."
 description = "Matt Strayer blog, links, projects."
 
 [frontmatter]
