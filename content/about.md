@@ -15,6 +15,8 @@ connect:
 
 projects:
 
+* [vandal](https://www.getvandal.app) - Hash marks the spot
+
 * [lowercase app](https://www.lowercase.app/) - a simple way to take and share notes
   
 * [stray photography](https://www.strayphotography.com/)
