@@ -14,12 +14,11 @@ dateFormat = "2 January 2006"
 
 [author]
 name = "Matt Strayer"
-# image = "img/author.jpg"
+image = "img/author.jpg"
 # headline = "I'm only human"
 # bio = "A little bit about you"
 links = [
   { email = "mailto:hello@your_domain.com" },
   { github = "https://github.com/mattstrayer" },
   { twitter = "https://twitter.com/matt_strayer" },
-  { youtube = "https://youtube.com/username" },
 ]
