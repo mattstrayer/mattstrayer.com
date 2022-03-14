@@ -1,5 +1,5 @@
 ---
-title: "VSCode, Vue, & Eslint/Prettier - One Happy Family"
+title: "VSCode, Vue, & Eslint+Prettier - One Happy Family"
 date: 2020-06-17
 publishDate: 2020-06-22
 lastMod: 2020-06-21
@@ -8,14 +8,13 @@ draft: true
 
 
 Github repo for this sample project: [sample-vue-app](https://github.com/mattstrayer/sample-vue-vscode-eslint-prettier).
-for those of you who already have a vue app setup & just want all the eslint/prettier goodness, you can skip down to [here](#eslint).
 
 ### If you're new to Vue entirely, and need a walk-through to get started, expand below!
 
 {{< details "Getting Started with Vue">}}
 
 # Vue app setup
-First things first, lets make sure that vue-cli is installed. We'll leverage its vue project scaffolding capabilities to this as easy as possible.
+First things first, lets make sure that `vue cli` is installed. We'll leverage its vue project scaffolding capabilities to this as easy as possible.
 
 ```bash
 # Yarn
@@ -107,9 +106,11 @@ Vue scaffolded out a baseline vue application with a built-in pre-commit hook to
 {{< /details >}}
 
 
+
+
 # Eslint & Prettier
 
-At this point ESLint is ready to roll, you can run `yarn lint` and it will format your vue project. We just have to get this same functionality set up within vscode, so that you can format on save.
+Once you have your vue project setup, this point ESLint is ready to roll, you can run `yarn lint` and it will format your vue project. We just have to get this same functionality set up within vscode, so that you can format on save.
 
 
 # VSCode + OnSave
@@ -137,12 +138,12 @@ Here we're telling VSCode to allow eslint to fix formatting issues via a `codeAc
 
 # extras. 
 
+Vue has recommended rules for eslint, which are documented [here](https://eslint.vuejs.org/rules/).
 
-Preferred eslint rules:
+I have the following set up in most of my projects.
 ```json
 "rules": {
     "vue/attribute-hyphenation": "error",
     "vue/attributes-order": "error"
 }
 ```
-
