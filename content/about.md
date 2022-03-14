@@ -10,12 +10,10 @@ projects:
 
 - [stray photography](https://www.strayphotography.com/)
 
-* [vandal](https://www.getvandal.app) - Hash marks the spot
+- [vandal](https://www.getvandal.app) - Hash marks the spot
 
-* [lowercase app](https://www.lowercase.app/) - a simple way to take and share notes
+- [lowercase app](https://www.lowercase.app/) - a simple way to take and share notes
 
-* [stray photography](https://www.strayphotography.com/)
+- [django taxtea](https://github.com/lowercase-app/django-taxtea) - django app to make calculating SaaS easy
 
-* [django taxtea](https://github.com/lowercase-app/django-taxtea) - django app to make calculating SaaS easy
-
-* [vue weekly](https://www.vueweekly.dev/) - a free, weekly email digest of Vue.js news and articles
+- [vue weekly](https://www.vueweekly.dev/) - a free, weekly email digest of Vue.js news and articles
