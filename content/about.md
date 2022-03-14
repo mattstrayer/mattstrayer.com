@@ -17,3 +17,5 @@ projects:
 - [django taxtea](https://github.com/lowercase-app/django-taxtea) - django app to make calculating SaaS easy
 
 - [vue weekly](https://www.vueweekly.dev/) - a free, weekly email digest of Vue.js news and articles
+
+- [fullstack digest](https://www.fullstackdigest.com/) - a free, weekly email digest of fullstack development news and articles.

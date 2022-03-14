@@ -21,4 +21,5 @@ links = [
   { email = "mailto:hello@your_domain.com" },
   { github = "https://github.com/mattstrayer" },
   { twitter = "https://twitter.com/matt_strayer" },
+  { linkedin = "https://linkedin.com/in/mattstrayer" },
 ]
