@@ -2,6 +2,7 @@ languageCode = "en"
 languageName = "English"
 displayName = "EN"
 isoCode = "en"
+htmlCode = "en"
 weight = 1
 rtl = false
 

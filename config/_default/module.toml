@@ -1,2 +1,6 @@
 [[imports]]
 path = "github.com/jpanther/congo/v2"
+
+[tableOfContents]
+startLevel = 2
+endLevel = 4
