@@ -10,7 +10,7 @@ projects:
 
 - [stray photography](https://www.strayphotography.com/)
 
-- [vandal](https://www.getvandal.app) - Hash marks the spot
+- [vandal](https://www.getvandal.app) - # marks the spot
 
 - [lowercase app](https://www.lowercase.app/) - a simple way to take and share notes
 
