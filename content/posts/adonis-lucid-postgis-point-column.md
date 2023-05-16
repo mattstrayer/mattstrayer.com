@@ -69,4 +69,4 @@ export default class Model extends BaseModel {
 
 ```
 
-That's it! Now you can access `model.point` to get the exact value from the database (`POINT(10 -20)`).
+That's it! Now you can query for a model through the ORM and access the exact database value via `point`.
