@@ -13,22 +13,27 @@
 [[main]]
 name = "blog"
 pageRef = "posts"
-weight = 10
+weight = 20
+
+[[main]]
+name = "building vandal"
+pageRef = 'categories/building-vandal'
+weight = 30
 
 [[main]]
 name = "categories"
 pageRef = "categories"
-weight = 20
+weight = 40
 
 [[main]]
 name = "about"
 pageRef = "about"
-weight = 20
+weight = 10
 
 [[main]]
 name = "tags"
 pageRef = "tags"
-weight = 30
+weight = 50
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before

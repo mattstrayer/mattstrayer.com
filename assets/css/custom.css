@@ -1,3 +1,7 @@
 .max-w-prose {
     max-width: 100ch;
 }
+
+html {
+    font-size: 14pt;
+}

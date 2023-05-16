@@ -6,10 +6,6 @@ lastmod = "2023-05-15"
 
 projects:
 
-- [lowercase app](https://www.lowercase.app/) - a simple way to take and share notes
-
-- [stray photography](https://www.strayphotography.com/)
-
 - [vandal](https://www.vandal.app) - # marks the spot
 
 - [lowercase app](https://www.lowercase.app/) - a simple way to take and share notes
