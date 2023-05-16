@@ -1,10 +1,10 @@
 ---
-title: "Serializing Adonis Lucid ORM Postgis Point Columns"
+title: "Serializing Adonis Lucid Models with Postgis Columns"
 date: 2023-05-15T17:19:03-04:00
 publishDate: 2023-05-15T17:19:03-04:00
 lastMod: 2023-05-15T17:19:03-04:00
 draft: false
-tags: ["adonis", "lucid orm", "vandal"]
+tags: ["adonis", "lucid orm", "vandal", "postgis", "point", "geospatial"]
 categories: ["adonis", "building vandal"]
 ---
 
