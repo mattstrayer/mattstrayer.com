@@ -7,7 +7,6 @@ draft: false
 tags: ["adonis", "lucid orm", "vandal", "postgis", "point", "geospatial"]
 categories: ["adonis", "building vandal"]
 ---
-
 ## why
 
 I'm currently in the middle of a rewrite of [vandal](https://www.vandal.app)'s backend rewrite from [Django](https://www.djangoproject.com/) to [Adonisjs](https://adonisjs.com/). Overall, things have gone swimmingly and the developer experience has been wonderful -- so has the type-safety. My biggest pain point has been around the lack of searchable historical knowledge, which makes sense because Adonis is still a _new_ framework. This is the _why_ behind this series of blog posts. I aim to add to that searchable knowledge bit by bit & encourage you to do the same!
