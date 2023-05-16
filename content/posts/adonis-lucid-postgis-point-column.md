@@ -1,5 +1,5 @@
 ---
-title: "Adonis Lucid ORM Postgis Point Column"
+title: "Serializing Adonis Lucid ORM Postgis Point Columns"
 date: 2023-05-15T17:19:03-04:00
 publishDate: 2023-05-15T17:19:03-04:00
 lastMod: 2023-05-15T17:19:03-04:00
