@@ -6,16 +6,16 @@
 # https://jpanther.github.io/congo/docs/configuration/#theme-parameters
 
 colorScheme = "sapphire"
-defaultAppearance = "dark" # valid options: light or dark
+defaultAppearance = "dark"            # valid options: light or dark
 autoSwitchAppearance = false
-showAppearanceSwitcher = false
+footer.showAppearanceSwitcher = false
 
 enableSearch = false
 enableCodeCopy = false
 
 # mainSections = ["section1", "section2"]
 # robots = ""
-showScrollToTop = true
+footer.showScrollToTop = true
 
 [homepage]
 layout = "profile" # valid options: page, profile, custom
