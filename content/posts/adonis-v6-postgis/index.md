@@ -5,7 +5,7 @@ date: 2024-02-11T12:01:42-05:00
 lastMod: 2024-02-11T12:01:42-05:00
 tags: ["adonis", "lucid orm", "knex", "postgis", "knex-postgis", "adonis-v6", "geospatial", "postgres", "postgresql"]
 categories: ["adonis"]
-
+images: ['adonis_v6_postgis.png']
 ---
 
 Adonis v6 is a significant upgrade with a [fantastic list of improvements](https://adonisjs.com/blog/adonisjs-v6-announcement). If you're using Postgis with your Adonis application, you may have come across a [cookbook](https://v5-docs.adonisjs.com/cookbooks/using-knex-postgis-with-lucid) that demonstrates how to set up an Adonis v5 application with the [knex-postgis](https://github.com/jfgodoy/knex-postgis) library. However, this guide no longer works with v6. In this post, I'll walk you through the process of adapting the cookbook to work with Adonis v6.
