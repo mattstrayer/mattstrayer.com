@@ -1,7 +1,21 @@
+html {
+    font-size: 14pt;
+}
+
+body {
+    -webkit-font-smoothings: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+
+  details:hover {
+    cursor: pointer;
+  }
+
+
 .max-w-prose {
     max-width: 100ch;
 }
 
-html {
-    font-size: 14pt;
-}
+
