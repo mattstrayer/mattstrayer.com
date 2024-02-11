@@ -2,9 +2,7 @@
 title: "Serializing Adonis Lucid Models with Postgis Columns"
 description: A quick and easy way to fetch postgis columns with Adonis' Lucid models
 date: 2023-05-15T17:19:03-04:00
-publishDate: 2023-05-15T17:19:03-04:00
 lastMod: 2023-05-15T17:19:03-04:00
-draft: false
 tags: ["adonis", "lucid orm", "vandal", "postgis", "point", "geospatial"]
 categories: ["adonis", "building vandal"]
 ---
