@@ -1,6 +1,6 @@
 ---
-title: Adonis v6 Postgis
-description: Adonis v6 guide to setting up Postgis
+title: AdonisJS v6 Postgis
+description: AdonisJS v6 guide to setting up Postgis
 date: 2024-02-11T12:01:42-05:00
 lastMod: 2024-02-11T12:01:42-05:00
 tags: ["adonis", "lucid orm", "knex", "postgis", "knex-postgis", "adonis-v6", "geospatial", "postgres", "postgresql"]
