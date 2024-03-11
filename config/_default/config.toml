@@ -12,8 +12,3 @@ summaryLength = 0
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]
-
-
-[permalinks]
-[permalinks.page]
-posts = '/posts/:year/:month/:slug/'
