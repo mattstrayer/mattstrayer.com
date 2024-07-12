@@ -1,9 +1,9 @@
-+++
-title = "about"
-date = "2020-06-17"
-lastmod = "2023-05-15"
-showReadingTime =	"false"
-+++
+---
+date: 2020-06-17
+lastmod: 2024-07-012
+title: about
+showReadingTime: False
+---
 
 projects:
 
