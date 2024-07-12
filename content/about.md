@@ -10,6 +10,8 @@ projects:
 
 - [lowercase app](https://www.lowercase.app/) - a simple way to take and share notes
 
+- [mindful](https://www.bemindful.dev/) - a browser extension that helps you stay present, focused, and intentional each day.
+
 - [django taxtea](https://github.com/lowercase-app/django-taxtea) - django app to make calculating SaaS tax easy
 
 - [vue weekly](https://www.vueweekly.dev/) - a free, weekly email digest of Vue.js news and articles
