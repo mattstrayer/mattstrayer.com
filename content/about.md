@@ -6,7 +6,7 @@ showReadingTime: False
 showDate: False
 ---
 
-projects:
+### projects:
 
 - [vandal](https://www.vandal.app) - # marks the spot
 
