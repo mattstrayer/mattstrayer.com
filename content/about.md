@@ -1,6 +1,6 @@
 ---
-date: 2024-07-012
-lastmod: 2024-07-012
+date: 2024-07-12
+lastmod: 2024-07-12
 title: about
 showReadingTime: False
 showDate: False
