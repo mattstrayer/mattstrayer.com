@@ -1,19 +1,13 @@
 {
     "configMigration": true,
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": [
-        "config:recommended",
-        "docker:pinDigests",
-        "helpers:pinGitHubActionDigests",
-        ":pinDevDependencies",
-        ":pinAllExceptPeerDependencies"
+        "config:recommended"
     ],
-    "go": {
-        "enabled": true
-    },
     "gomod": {
         "enabled": true
     },
-    "golang": {
+    "mise": {
         "enabled": true
     }
 }
