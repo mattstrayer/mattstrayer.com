@@ -10,6 +10,8 @@ showDate: False
 
 - [vandal](https://www.vandal.app) - # marks the spot
 
+- [pypx](https://www.pypx.app) - Fast, modern frontend for PyPI — instant search, dependency trees, download trends, security advisories, and API docs in one place.
+
 - [lowercase app](https://www.lowercase.app/) - a simple way to take and share notes
 
 - [mindful](https://www.bemindful.dev/) - a browser extension that helps you stay present, focused, and intentional each day.
